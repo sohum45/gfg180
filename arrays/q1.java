@@ -13,7 +13,7 @@ class Solution {
                 smax = max;
                 max=arr[i];
             }
-            else if(arr[i] > smax && max!=arr[i]){
+            else if(arr[i] > smax && max!=arr[i]){   // you did not checked if scmax is greater than element in an array
                 smax=arr[i];
             }
         }
