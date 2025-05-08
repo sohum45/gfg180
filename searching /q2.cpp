@@ -6,6 +6,7 @@ class Solution {
           // code here
           int lo = 0 , hi = arr.size() - 1;
           int ans = arr.size();
+          
           while(lo <= hi){
               int mid = lo + (hi - lo)/2;
               if(target <= arr[mid]){
